@@ -1,0 +1,38 @@
+
+
+#heading{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+   
+}
+
+
+#calculator{
+    
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    flex-wrap: wrap;
+    background-color: gray;
+   
+}
+
+.button{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+}
+
+#display{
+    
+    margin: 10px;
+    width: 85%;
+}
+
+.button_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
